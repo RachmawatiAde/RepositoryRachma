@@ -1,4 +1,4 @@
-class Car implements VehicleInterface, DoorInterface {
+class Car implements Driving, Stopping, Refueling, DoorInterface {
     @Override
     public void drive() {
     }
