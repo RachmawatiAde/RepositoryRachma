@@ -1,23 +1,36 @@
 public class Course {
-    private String CourseName;
-    private String CourseId;
-    private String CourseCategory;
+    private String courseName;
+    private String courseId;
+    private String courseCategory;
+
     public String getId() {
-    //mengembalikan nilai id Course
+        //mengembalikan nilai id Course
+        return courseId;
     }
+
     public void setId(String id) {
-    //set id Course
+        //set id Course
+        this.courseId = id;
     }
+
+
     public String getName() {
-    //Mengembalikan Nama Course
+        //Mengembalikan Nama Course
+        return courseName;
     }
+
     public void setName(String name) {
-    //set Nama Course
+        //set Nama Course
+        this.courseName = name;
     }
+
     public String getCategory() {
-    //Mengembalikan kategori Course
+        //Mengembalikan kategori Course
+        return courseCategory;
     }
+
     public void setCategory(String category) {
-    //set Kategori Course
+        //set Kategori Course
+        this.courseCategory = category;
     }
-    }
+}
